@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /meta/auth
+spring:
+  application:
+    name: meta-auth
+  profiles:
+    active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8

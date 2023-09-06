@@ -1,0 +1,11 @@
+
+
+logging:
+  level:
+    web: DEBUG
+
+spring:
+  devtools:
+    add-properties: true
+    restart:
+      enabled: true
